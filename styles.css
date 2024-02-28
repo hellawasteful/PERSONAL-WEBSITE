@@ -51,6 +51,11 @@ button {
     border-radius: 5px;
 }
 
+button:hover {
+    background-color: rgba(128, 128, 128, 0.5); /* Gray with low opacity */
+    color: #000000; /* Text color on hover */
+}
+
 .typing-text {
     text-align: center;
     margin-top: 10px; /* Adjust margin-top */
